@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.0.0
+script: ruby spec/models/blog_spec.rb
+notifications:
+  email:
+    recipients:
+      - alan.k.fadliawan@gmail.com
+    on_success: change
+    on_failure: always
