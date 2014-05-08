@@ -1,7 +1,7 @@
 language: ruby
 rvm:
   - 2.0.0
-script: ruby -rminitest/pride spec/models/blog_spec.rb
+script: ruby -rminitest/pride spec/models/blog_spec.rb --verbose
 notifications:
   email:
     recipients:
